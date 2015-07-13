@@ -52,8 +52,9 @@ gridGrid = function() {
             cContext.lineTo(canvasWidth, y*tileHeight);
         }
 
-        cContext.strokeStyle= "#hhh";
-        cContext.stroke();
+        // cContext.strokeStyle= "#hhh";
+        // cContext.lineWidth = 0;
+        // cContext.stroke();
 
         var padding = tileWidth*0.15;
 
